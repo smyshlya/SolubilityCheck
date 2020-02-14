@@ -1,0 +1,7 @@
+venv/*
+.gitignore~
+README.md~
+*.png
+*.fa
+genomes/*
+*.pl
