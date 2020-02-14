@@ -5,3 +5,13 @@ README.md~
 *.fa
 genomes/*
 *.pl
+results/*
+.idea/*
+.DS_Store        
+README_sequence_prediction.txt
+__pycache__/*
+blah.txt
+multiple_prediction_wrapper_export.sh
+run.log
+seq_reference_data.txt
+ss_propensities.txt
