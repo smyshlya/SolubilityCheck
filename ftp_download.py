@@ -20,7 +20,7 @@ for genome in genome_folders:
             print(sequence_file)
             genome_file="/Users/gera/PycharmProjects/SolubilityCheck/genomes/"+sequence_file
             if os.path.exists(genome_file) and os.path.getsize(genome_file) > 0:
-                print("Blast results already exist, skipping")
+                print("Genome file already exist, skipping")
             else:
                 ftp.retrbinary("RETR " + sequence_file, open(genome_file, 'wb').write)
     ftp.cwd('/pub/release-46/plants/fasta/')
